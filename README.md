@@ -6,8 +6,17 @@ el mantenimiento del día a día.
 
 ## Subir a GitHub Pages
 
-1. Creá un repositorio nuevo en GitHub (puede ser público o privado con GitHub Pro/Team; Pages gratis requiere público).
-2. Subí **todo** el contenido de esta carpeta a la raíz del repositorio (no dentro de una subcarpeta).
+Esta carpeta ya es un repositorio git local (con un commit inicial hecho).
+Para subirla:
+
+1. Creá un repositorio vacío en GitHub (público, o privado con GitHub Pro/Team — Pages gratis requiere público). **No** le tildes "Add a README" para que quede vacío.
+2. Desde una terminal, parado en esta carpeta:
+   ```bash
+   git remote add origin https://github.com/<usuario>/<repo>.git
+   git branch -M main
+   git push -u origin main
+   ```
+   (o subí los archivos arrastrándolos desde la web de GitHub, si preferís no usar la terminal).
 3. En el repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, rama `main`, carpeta `/ (root)`. Guardar.
 4. Esperá 1-2 minutos y el sitio va a estar en `https://<usuario>.github.io/<repo>/`.
 
