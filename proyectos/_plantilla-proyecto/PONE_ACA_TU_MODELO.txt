@@ -1,0 +1,2 @@
+Poné acá el archivo IFC de la obra, renombrado a: modelo.ifc
+Ver ../../GUIA.md

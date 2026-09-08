@@ -1,0 +1,144 @@
+[
+  {
+    "slug": "nave-deportiva-astengo",
+    "titulo": "Nave deportiva Astengo",
+    "categoria": "Nave Deportiva",
+    "resumen": "Nave deportiva con pórticos de encuentros oblicuos, modelada íntegramente en BIM.",
+    "imagen": "proyectos/nave-deportiva-astengo/galeria/01.png",
+    "meta": [
+      "51 tn",
+      "1.320 m²"
+    ]
+  },
+  {
+    "slug": "frame",
+    "titulo": "Frame",
+    "categoria": "Edificio",
+    "resumen": "Edificio en espacio reducido resuelto con paños modulares de tubo estructural.",
+    "imagen": "proyectos/frame/galeria/01.png",
+    "meta": [
+      "42 tn",
+      "73,9 m²"
+    ]
+  },
+  {
+    "slug": "kress",
+    "titulo": "Kress",
+    "categoria": "Nave Industrial",
+    "resumen": "Nave industrial de gran escala, con más de 3.900 m² de superficie cubierta.",
+    "imagen": "proyectos/kress/galeria/01.png",
+    "meta": [
+      "85 tn",
+      "3.976 m²"
+    ]
+  },
+  {
+    "slug": "hartmann",
+    "titulo": "Hartmann",
+    "categoria": "Nave Industrial",
+    "resumen": "Nave emplazada entre muros existentes, con relevamiento y nube de puntos incorporados al modelo.",
+    "imagen": "proyectos/hartmann/galeria/01.png",
+    "meta": [
+      "11,5 tn",
+      "722 m²"
+    ]
+  },
+  {
+    "slug": "lanzadores-bmx",
+    "titulo": "Lanzadores BMX",
+    "categoria": "Torres y Rampas",
+    "resumen": "Torres de largada para BMX conectadas por escaleras y entrepisos de rejilla.",
+    "imagen": "proyectos/lanzadores-bmx/galeria/01.png",
+    "meta": [
+      "40 tn",
+      "200 m²"
+    ]
+  },
+  {
+    "slug": "nodo",
+    "titulo": "Nodo",
+    "categoria": "Nave Industrial c/ Divisiones",
+    "resumen": "Complejo de depósitos de 14.400 m², desarrollado y montado en 6 fases.",
+    "imagen": "proyectos/nodo/galeria/01.png",
+    "meta": [
+      "270 + 410 tn",
+      "14.400 m²"
+    ]
+  },
+  {
+    "slug": "agd-bandera",
+    "titulo": "AGD Bandera",
+    "categoria": "Estación de Carga de Trenes",
+    "resumen": "Torre soporte de silo, andén techado y pasarela de acceso para carga de vagones.",
+    "imagen": "proyectos/agd-bandera/galeria/01.png",
+    "meta": [
+      "25 tn",
+      "288 m²"
+    ]
+  },
+  {
+    "slug": "meli-gualeguaychu",
+    "titulo": "MELI Gualeguaychú",
+    "categoria": "Nave Industrial / Depósito",
+    "resumen": "Depósito industrial de 4.392 m² para Mercado Libre en Gualeguaychú.",
+    "imagen": "proyectos/meli-gualeguaychu/galeria/01.png",
+    "meta": [
+      "72 tn",
+      "4.392 m²"
+    ]
+  },
+  {
+    "slug": "nave-22x37",
+    "titulo": "Nave industrial chica 22×37",
+    "categoria": "Nave Industrial",
+    "resumen": "Nave industrial compacta de 814 m², resuelta con perfiles armados y conformados.",
+    "imagen": "proyectos/nave-22x37/galeria/01.png",
+    "meta": [
+      "17 tn",
+      "814 m²"
+    ]
+  },
+  {
+    "slug": "edificio-gobierno",
+    "titulo": "Edificio de gobierno",
+    "categoria": "Edificio",
+    "resumen": "Cubierta reticulada de dos tipos de cerchas sobre un edificio de hormigón premoldeado.",
+    "imagen": "proyectos/edificio-gobierno/galeria/01.png",
+    "meta": [
+      "15 tn",
+      "1.387,5 m²"
+    ]
+  },
+  {
+    "slug": "unidad-penitenciaria-up13",
+    "titulo": "Unidad Penitenciaria N.º 13",
+    "categoria": "Cubierta",
+    "resumen": "Cuatro cubiertas para edificios penitenciarios en perfiles laminados tipo W.",
+    "imagen": "proyectos/unidad-penitenciaria-up13/galeria/01.png",
+    "meta": [
+      "7 tn",
+      "451,4 m²"
+    ]
+  },
+  {
+    "slug": "bcr-cocheras",
+    "titulo": "BCR Cocheras",
+    "categoria": "Cocheras",
+    "resumen": "Estructura de cocheras resuelta en perfiles armados y conformados.",
+    "imagen": "proyectos/bcr-cocheras/galeria/01.png",
+    "meta": [
+      "5 tn"
+    ]
+  },
+  {
+    "slug": "torre-ciclones",
+    "titulo": "Torre Ciclones",
+    "categoria": "Torre",
+    "resumen": "Torre de soporte de maquinaria (ciclones), vinculada con modelos de referencia de obras linderas.",
+    "imagen": "proyectos/torre-ciclones/galeria/01.png",
+    "meta": [
+      "19 tn",
+      "147 m²"
+    ]
+  }
+]

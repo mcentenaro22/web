@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Martín Centenaro — Ingeniería civil &amp; BIM</title>
+<meta name="description" content="Portfolio de ingeniería civil, estructuras metálicas y modelado BIM — obras con visor 3D de modelos IFC." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#">MARTÍN CENTENARO<span>·ING.CIVIL</span></a>
+  <nav class="site-nav" data-nav>
+    <a href="#proyectos">Obras</a>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <button class="nav-toggle" data-nav-toggle aria-label="Abrir menú"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Ingeniería civil · Estructuras metálicas · BIM</p>
+      <h1>Del cálculo al montaje, con <em>modelos que se pueden recorrer.</em></h1>
+      <p class="hero-copy">Diseño y modelado 3D BIM de estructuras metálicas industriales e institucionales: planos de taller y montaje, documentación NC/DSTV y coordinación de obra bajo normativa CIRSOC.</p>
+      <a class="button accent" href="#proyectos">Ver obras ↓</a>
+    </div>
+    <div class="hero-stats">
+      <div><b>13</b><span>Obras documentadas</span></div>
+      <div><b>+28.000 m²</b><span>Superficie modelada</span></div>
+      <div><b>+1.000 tn</b><span>De estructura metálica</span></div>
+    </div>
+  </section>
+
+  <!-- ============ PROYECTOS ============ -->
+  <!-- Esta sección lee automáticamente data/proyectos.json — para agregar
+       o quitar una obra del home, se edita ese archivo, no este. -->
+  <section id="proyectos" class="block">
+    <div class="wrap">
+      <div class="section-heading">
+        <p class="eyebrow">Obras</p>
+        <h2>Proyectos seleccionados</h2>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="project-grid" data-project-grid>
+        <p class="projects-empty">Cargando obras…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE MÍ ============ -->
+  <section id="sobre-mi" class="block bg-soft">
+    <div class="wrap about-grid">
+      <div>
+        <p class="eyebrow">Perfil</p>
+        <h2>Ingeniería civil con foco en estructuras metálicas y BIM.</h2>
+      </div>
+      <div>
+        <p class="about-lead">
+          <!-- TINCHO: reemplazá este párrafo por tu presentación real (años de
+               experiencia, formación, tipo de obras en las que te especializás). -->
+          Trabajo en el modelado, cálculo y documentación de estructuras metálicas para naves
+          industriales, edificios institucionales y obras especiales, llevando el proyecto desde
+          el modelo 3D BIM hasta los planos de taller, montaje y archivos para máquinas CNC
+          (NC/DSTV), bajo normativa CIRSOC 301.
+        </p>
+        <ul class="skill-list">
+          <li><span>Especialidades</span><span>Estructuras metálicas · Cálculo · Modelado BIM</span></li>
+          <li><span>Entregables</span><span>Planos de taller y montaje · NC/DSTV · Lista de materiales</span></li>
+          <li><span>Normativa</span><span>CIRSOC 301</span></li>
+          <li><span>Software</span><span><!-- TINCHO: completá acá tus herramientas (ej: Tekla Structures, AutoCAD, SAP2000, etc.) --> A completar</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section id="contacto" class="block">
+    <div class="wrap contact-grid">
+      <div class="contact-info">
+        <p class="eyebrow">Contacto</p>
+        <h2>¿Tenés un proyecto para conversar?</h2>
+        <p>Estructuras metálicas, modelado BIM, documentación técnica o asistencia en obra — escribime por el medio que te resulte más cómodo.</p>
+
+        <ul class="contact-channels">
+          <li>
+            <a href="mailto:mcentenaro2@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+              mcentenaro2@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/5493471597118?text=Hola%20Mart%C3%ADn%2C%20vi%20tu%20portfolio%20y%20quiero%20consultarte%20por%20un%20proyecto." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.1a8 8 0 01-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.1 8.1 0 1112 20.1zm4.5-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.1-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.4 3.8 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+              +54 9 3471 597118
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/martin-centenaro-b074511bb/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.24 8.25h4.5V23H.24V8.25zM8.25 8.25h4.31v2.01h.06c.6-1.14 2.07-2.34 4.26-2.34 4.55 0 5.39 3 5.39 6.9V23h-4.5v-6.75c0-1.61-.03-3.68-2.24-3.68-2.25 0-2.6 1.76-2.6 3.57V23h-4.5V8.25z"/></svg>
+              LinkedIn — Martín Centenaro
+            </a>
+          </li>
+        </ul>
+
+        <div class="linkedin-embed">
+          <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="martin-centenaro-b074511bb" data-version="v1">
+            <a class="badge-base__link LI-simple-link" href="https://ar.linkedin.com/in/martin-centenaro-b074511bb?trk=profile-badge">Martín Centenaro</a>
+          </div>
+          <p class="badge-note">LinkedIn no permite embeber el feed de un perfil personal en otra web — esta es su credencial oficial embebible. La actividad reciente se puede ver entrando directo al perfil.</p>
+        </div>
+      </div>
+
+      <form class="contact-form" data-contact-form action="https://formsubmit.co/mcentenaro2@gmail.com" method="POST">
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="_subject" value="Nuevo contacto desde el portfolio">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <div>
+          <label for="f-nombre">Nombre</label>
+          <input id="f-nombre" name="Nombre" type="text" required>
+        </div>
+        <div>
+          <label for="f-email">Email</label>
+          <input id="f-email" name="Email" type="email" required>
+        </div>
+        <div>
+          <label for="f-mensaje">Mensaje</label>
+          <textarea id="f-mensaje" name="Mensaje" required></textarea>
+        </div>
+        <button class="button" type="submit">Enviar mensaje</button>
+        <p class="form-status" data-form-status></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<a class="wa-float" href="https://wa.me/5493471597118?text=Hola%20Mart%C3%ADn%2C%20vi%20tu%20portfolio%20y%20quiero%20consultarte%20por%20un%20proyecto." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.1a8 8 0 01-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.1 8.1 0 1112 20.1zm4.5-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.1-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.4 3.8 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+</a>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Martín Centenaro — Ingeniería civil</span>
+  <span>Sitio construido para GitHub Pages</span>
+</footer>
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/home.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
