@@ -1,5 +1,15 @@
 [
   {
+    "slug": "microestadio-odesur",
+    "titulo": "Microestadio ODESUR",
+    "categoria": "Estadio",
+    "resumen": "Estructura con vigas reticuladas de seccion circular, con perfiles armados y laminados.",
+    "imagen": "proyectos/microestadio-odesur/galeria/01.png",
+    "meta": [
+      "100 tn"
+    ]
+  },
+  {
     "slug": "nave-deportiva-astengo",
     "titulo": "Nave deportiva Astengo",
     "categoria": "Nave Deportiva",
@@ -150,5 +160,5 @@
     "meta": [
       "100 tn"
     ]
-  }
+  },
 ]
