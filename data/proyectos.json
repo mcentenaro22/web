@@ -22,17 +22,6 @@
     ]
   },
   {
-    "slug": "frame",
-    "titulo": "Frame",
-    "categoria": "Edificio",
-    "resumen": "Edificio en espacio reducido resuelto con paños modulares de tubo estructural.",
-    "imagen": "proyectos/frame/galeria/01.png",
-    "meta": [
-      "42 tn",
-      "73,9 m²"
-    ]
-  },
-  {
     "slug": "kress",
     "titulo": "Kress",
     "categoria": "Nave Industrial",
@@ -150,6 +139,17 @@
     "meta": [
       "19 tn",
       "147 m²"
+    ]
+  },
+  {
+    "slug": "frame",
+    "titulo": "Frame",
+    "categoria": "Edificio",
+    "resumen": "Edificio en espacio reducido resuelto con paños modulares de tubo estructural.",
+    "imagen": "proyectos/frame/galeria/01.png",
+    "meta": [
+      "42 tn",
+      "73,9 m²"
     ]
   }
 ]
