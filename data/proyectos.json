@@ -151,15 +151,5 @@
       "19 tn",
       "147 m²"
     ]
-    },
-  {
-    "slug": "microestadio-odesur",
-    "titulo": "Microestadio ODESUR",
-    "categoria": "Estadio",
-    "resumen": "Estructura con vigas reticuladas de seccion circular, con perfiles armados y laminados.",
-    "imagen": "proyectos/microestadio-odesur/galeria/01.png",
-    "meta": [
-      "100 tn"
-    ]
   }
 ]
