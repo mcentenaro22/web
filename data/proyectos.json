@@ -22,6 +22,17 @@
     ]
   },
   {
+    "slug": "tyna",
+    "titulo": "Nave Tyna",
+    "categoria": "Nave Supermercado",
+    "resumen": "Nave industrial con perfiles armados, modelada íntegramente en BIM.",
+    "imagen": "proyectos/tyna/galeria/01.png",
+    "meta": [
+      "115 tn",
+      "3.800 m²"
+    ]
+  },
+  {
     "slug": "kress",
     "titulo": "Kress",
     "categoria": "Nave Industrial",
